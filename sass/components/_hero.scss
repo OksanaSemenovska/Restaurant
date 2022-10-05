@@ -1,0 +1,98 @@
+.hero__title {
+    font-family: 'Cormorant Infant';
+        font-size: 100px;
+        line-height: 110px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        padding-top: 220px;
+}
+
+.hero__container {
+    background-color: #292E36;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero__text {
+    font-family: 'Josefin Sans';
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        width: 616px;
+        margin: 26px 59px 35px 0;
+}
+
+.hero__button {
+    font-family: 'Josefin Sans';
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        background-color: #292E36;
+        border: 2px solid #E1B168;
+            border-radius: 0px;
+            width: 230px;
+            height: 73px;
+}
+
+.hero__button:hover,
+.hero__button:focus {
+color: #E1B168;
+}
+
+
+.hero__img {
+    border-radius: 626px 626px 0px 0px;
+}
+
+.story {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 125px;
+}
+
+.about-restourant {
+    background-color: #FFF8F5;
+}
+
+.story__text {
+    font-family: 'Josefin Sans';
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #555555;
+}
+
+.story__text--font {
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.story__title {
+    font-family: 'Cormorant Infant';
+        font-size: 40px;
+        line-height: 56px;
+        letter-spacing: 0.2px;
+        color: #292E36;
+        margin-bottom: 15px;
+}
+.story__container {
+    margin-left: 45px;
+}
+
+.story__text--size {
+    width: 559px;
+}
+.story__block {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.story__block--size {
+width: 274px;
+gap: 24px;
+}

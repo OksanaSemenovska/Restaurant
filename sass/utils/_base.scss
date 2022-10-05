@@ -1,0 +1,55 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+}
+
+svg {
+    display: block;
+}
+.container {
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 1360px;
+}

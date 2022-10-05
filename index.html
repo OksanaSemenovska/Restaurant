@@ -1,53 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
-</head>
-<body>
-    <header>
-<ul>
-    <li>
-    <a href="tel:+38123456789">Call - 123 456 789</a>
-    </li>
-      <li></li>
-        <li>
-            <button>Reservation</button>
-        </li>
-</ul>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,700;1,400&family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="container header_container">
+      <section class="header">
+        <ul class="list link header_item">
+          <li class="header_list">
+            <a class="header_contact" href="tel:+38123456789">Call - 123 456 789</a>
+          </li>
+          <li>
+            <svg aria-label="logo" height="188" width="378">
+              <use href="./image/svg.svg#logo"></use>
+            </svg>
+          </li>
+          <li class="header_list">
+            <button class="header_button">Reservation</button>
+          </li>
+        </ul>
+      </section>
+      <section class="header-navigation">
+        <ul class="container list link header-navigation__item">
+          <li>
+            <a class="header-navigation__link" href="./index.html">Home</a>
+          </li>
+          <li>
+            <a class="header-navigation__link" href="./index.html">About Us</a>
+          </li>
+          <li>
+            <a class="header-navigation__link" href="./index.html">Our Menu</a>
+          </li>
+          <li>
+            <a class="header-navigation__link" href="./index.html">Pages</a>
+          </li>
+          <li>
+            <a class="header-navigation__link" href="./index.html">Blog</a>
+          </li>
+          <li>
+            <a class="header-navigation__link" href="./index.html">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="header-navigation__ntw list link">
+          <li>
+            <a href="" class="header-navigation__link-ntw">
+              <svg aria-label="instagram" height="23" width="24" class="header-navigation__icon">
+                <use href="./image/svg.svg#icon-insta"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="header-navigation__link-ntw">
+              <svg aria-label="instagram" height="23" width="24" class="header-navigation__icon">
+                <use href="./image/svg.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="header-navigation__link-ntw">
+              <svg aria-label="instagram" height="23" width="24" class="header-navigation__icon">
+                <use href="./image/svg.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="header-navigation__link-ntw">
+              <svg aria-label="instagram" height="23" width="24" class="header-navigation__icon">
+                <use href="./image/svg.svg#icon-p"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
     </header>
     <main>
-        <section>
-            <ul>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                     <a href="./index.html">About Us</a>
-                </li>
-                <li>
-                    <a href="./index.html">Our Menu</a>
-                </li>
-                <li>
-                     <a href="./index.html">Pages</a>
-                </li>
-                <li>
-                     <a href="./index.html">Blog</a>
-                </li>
-                <li>
-                     <a href="./index.html">Contact Us</a>
-                </li>
-            </ul>
-        </section>
-        <section>
-<h1>Welcome to Restaurant</h1>
-<p>The people, food and the prime locations make the perfect place good friends & family to come together and have great time.</p>
-<button>View Menu</button>
-<img src="./image/Hero.jpg" alt="Main hero">
-        </section>
+        <!------------------------HERO--------------------------------------->
+      <section class="container hero__container">
+        <div class="hero">
+<div>
+<h1 class="hero__title">Welcome to<br>Restaurant</h1>
+        <p class="hero__text">
+          The people, food and the prime locations make the perfect place good friends & family to
+          come together and have great time.
+        </p>
+        <button class="hero__button">View Menu</button>
+        </div>
+        <div>
+<img class="hero__img" src="./image/hero.jpg" alt="Main hero" />
+        </div>
+        </div>
+      </section>
+      <section class="container about-restourant">
+        <div class="story">
+  <div>
+<img src="./image/story.jpg" alt="photo restourant" height="519" width="743">
+            </div>
+            <div class="story__container">
+               <div><h2 class="story__title">The Delicious Story</h2>
+<p class="story__text story__text--size">The people, food and the prime locations make the perfect place for the friends & family to come together and have great time.</p></div>
+               <div>
+                <ul class="story__block list">
+                    <li class="story__block--size"><h2 class="story__title">2018</h2>
+    <p class="story__text">Plan for this restaurant to deliver healthy food.</p></li>
+                    <li class="story__block--size"><h2 class="story__title">2022</h2>
+    <p class="story__text">Happily in the fourth year by fulfill the motto.</p></div></li>
+                </ul> 
+               <div><p class="story__text story__text--font">josephine</p>
+    <svg aria-label="signature" width="200" height="111">
+        <use a href="./image/svg.svg#icon-signature">
+        </use>
+    </svg></div>
+</div>
+ </div>
+      </section>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>
