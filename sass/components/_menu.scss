@@ -34,6 +34,7 @@
             padding: 20px 57px;
             background-color: white;
             margin-top: 60px;
+            
 }
 
 .menu__button:hover,
@@ -43,6 +44,8 @@
 }
 
 .menu-price__text {
+    display: flex;
+    align-items: baseline;
     font-family: 'Josefin Sans';
         font-size: 20px;
         line-height: 30px;
@@ -52,7 +55,7 @@
 .menu-price__text::after {
     content: "";
     width: 260px;
-    position: absolute;
+    display: block;
     background: #AAAAAA;
     height: 2px;
 }
@@ -64,3 +67,4 @@
         letter-spacing: 0.2px;
         color: #292E36;
 }
+
