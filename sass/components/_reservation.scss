@@ -1,0 +1,89 @@
+.reservation {
+    width: 920px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: rgba(41, 46, 54, 0.95);
+    position: relative;
+        bottom: 810px;
+            left: 18%;
+            padding-bottom: 155px;
+                padding-top: 140px;
+}
+.reservation__text {
+    font-family: 'Josefin Sans';
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 12px;
+}
+.reservation__title {
+    font-family: 'Cormorant Infant'; 
+        font-size: 40px;
+        line-height: 56px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+}
+
+.reservation__input {
+    background-color: transparent;
+    font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        border: 1px solid #858585;
+        border-radius: 0px;
+        width: 307px;
+        padding-left: 25px;
+        padding-top: 18px;
+        padding-bottom: 19px;
+
+}
+.reservation__input::placeholder {
+    color: #FFFFFF;
+}
+
+.reservation__block-input {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.reservation__input--width {
+    width: 198px;
+}
+.reservation__block1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+.reservation__block2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.reservation__btn {
+    font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #000000;
+        padding: 23px 54px;
+        background-color: #FFFFFF;
+        border: transparent;
+            display: block;
+                margin: auto;
+}
+
+.reservation__btn:hover,
+.reservation__btn:focus {
+background-color: #E1B130;
+    color: white;
+}

@@ -6,6 +6,9 @@ h5,
 p {
   margin-top: 0;
   margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.2px;
 }
 
 a {
@@ -51,7 +54,7 @@ svg {
   margin: 0 auto;
   padding-left: 40px;
   padding-right: 40px;
-  width: 1360px;
+  width: 1440px;
 }
 
 .header {
@@ -447,4 +450,464 @@ svg {
   margin-top: 40px;
   display: flex;
   gap: 30px;
+}
+
+.dishes {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.dishes__text {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+  margin-top: 15px;
+}
+
+.dishes__block {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 11px;
+  margin-top: 9px;
+}
+
+.dishes__title {
+  font-family: "Cormorant Infant";
+  font-size: 30px;
+  line-height: 42px;
+  color: #292E36;
+}
+
+.dishes__section {
+  width: 317px;
+}
+
+.dishes__button {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  color: #E1B168;
+  padding: 20px 57px;
+  border: 1px solid #E1B168;
+  background-color: transparent;
+  margin-top: 60px;
+  margin-left: 553px;
+}
+
+.dishes__btn {
+  padding-bottom: 140px;
+}
+
+.dishes__button:hover,
+.dishes__button:focus {
+  color: #e1b110;
+  border: 1px solid #e1b110;
+  background-color: #fffff7;
+}
+
+.servises__container {
+  background-color: #292E36;
+}
+
+.servises__container2 {
+  display: flex;
+  padding-top: 140px;
+  padding-bottom: 161px;
+}
+
+.servises__txt {
+  font-family: "Josefin Sans";
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+.servises__title {
+  font-family: "Cormorant Infant";
+  font-size: 40px;
+  line-height: 56px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 13px;
+}
+
+.servises__text {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.servises__block {
+  width: 448px;
+  margin-right: 90px;
+}
+
+.servises__about {
+  font-family: "Cormorant Infant";
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+}
+
+.servises__block2 {
+  display: flex;
+  gap: 30px;
+}
+
+.servises__border {
+  border: 20px solid #323841;
+  width: 254px;
+  height: 235px;
+  padding-top: 45px;
+}
+
+.servises__img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.blog__block {
+  display: flex;
+  gap: 42px;
+  margin-top: 40px;
+  padding-bottom: 150px;
+}
+
+.blog__img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 0px;
+}
+
+.blog__btn {
+  position: absolute;
+  top: 20%;
+  left: 32%;
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.44px;
+  color: #292E36;
+  padding: 20px 57px;
+  background: #E1B168;
+  border: 2px solid #E1B168;
+}
+
+.blog__list {
+  position: relative;
+}
+
+.blog__btn:hover,
+.blog__btn:focus {
+  background-color: #E1B130;
+  color: white;
+}
+
+.blog__container {
+  width: 640px;
+  padding-top: 50px;
+  padding-bottom: 38px;
+  padding-left: 46px;
+  border: 1px solid #C4C4C4;
+  border-top: none;
+}
+
+.blog__txt {
+  font-family: "Josefin Sans";
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #292E36;
+  margin-bottom: 26px;
+}
+
+.blog__title {
+  font-family: "Cormorant Infant";
+  font-size: 30px;
+  line-height: 39px;
+  text-transform: capitalize;
+  color: #292E36;
+  margin-bottom: 24px;
+}
+
+.blog__text {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+  width: 547px;
+}
+
+.reservation {
+  width: 920px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: rgba(41, 46, 54, 0.95);
+  position: relative;
+  bottom: 810px;
+  left: 18%;
+  padding-bottom: 155px;
+  padding-top: 140px;
+}
+
+.reservation__text {
+  font-family: "Josefin Sans";
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+.reservation__title {
+  font-family: "Cormorant Infant";
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.reservation__input {
+  background-color: transparent;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  border: 1px solid #858585;
+  border-radius: 0px;
+  width: 307px;
+  padding-left: 25px;
+  padding-top: 18px;
+  padding-bottom: 19px;
+}
+
+.reservation__input::placeholder {
+  color: #FFFFFF;
+}
+
+.reservation__block-input {
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.reservation__input--width {
+  width: 198px;
+}
+
+.reservation__block1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+}
+
+.reservation__block2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.reservation__btn {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #000000;
+  padding: 23px 54px;
+  background-color: #FFFFFF;
+  border: transparent;
+  display: block;
+  margin: auto;
+}
+
+.reservation__btn:hover,
+.reservation__btn:focus {
+  background-color: #E1B130;
+  color: white;
+}
+
+.footer__container {
+  background-color: #292E36;
+}
+
+.block2__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.block2__text--clr {
+  color: #E1B168;
+}
+
+.block2__list {
+  display: flex;
+  column-gap: 20px;
+}
+
+.block2__link {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.block2__link:hover,
+.block2__link:focus {
+  color: #E1B168;
+}
+
+.footer__block2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 25px;
+  border-top: 1px solid #575B62;
+}
+
+.footer__adress {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.footer__adress:hover,
+.footer__adress:focus {
+  color: #E1B168;
+}
+
+.footer__text1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  padding-top: 139px;
+  margin-bottom: 116px;
+}
+
+.footer__text2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 34px;
+}
+
+.footer__block1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.footer__btn {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #000000;
+  padding: 19px 40px 20px 39px;
+  background: #FFFFFF;
+  border: none;
+}
+
+.footer__input {
+  width: 456px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  background-color: transparent;
+  padding: 17px 0 18px 24px;
+}
+
+.footer__input-item {
+  display: flex;
+}
+
+.footer__time {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #E1B168;
+}
+
+.footer__time--clr {
+  color: #FFFFFF;
+}
+
+.footer__time-text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: right;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 39px;
 }/*# sourceMappingURL=main.css.map */

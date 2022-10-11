@@ -1,0 +1,58 @@
+.dishes {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.dishes__text {
+    font-family: 'Josefin Sans';
+        font-size: 20px;
+        line-height: 30px;
+        color: #555555;
+        margin-top: 15px;
+
+}
+
+.dishes__block {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DCDCDC;
+    padding-bottom: 11px;
+    margin-top: 9px;
+}
+
+.dishes__title {
+    font-family: 'Cormorant Infant';
+        font-size: 30px;
+        line-height: 42px;
+        color: #292E36;
+}
+
+.dishes__section {
+width: 317px;
+}
+
+.dishes__button {
+    font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        color: #E1B168;
+        padding: 20px 57px;
+        border: 1px solid #E1B168;
+        background-color: transparent;
+        margin-top: 60px;
+        margin-left: 553px;      
+}
+.dishes__btn {
+padding-bottom: 140px;
+}
+.dishes__button:hover,
+.dishes__button:focus {
+    color: #e1b110;
+    border: 1px solid #e1b110;
+    background-color: #fffff7
+
+}

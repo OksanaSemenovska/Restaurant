@@ -6,6 +6,9 @@ h5,
 p {
     margin-top: 0;
     margin-bottom: 0;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.2px;
 }
 
 a {
@@ -42,6 +45,7 @@ button {
 body {
     font-family: 'Josefin Sans', sans-serif;
     margin: auto;
+    
 }
 
 svg {
@@ -51,5 +55,5 @@ svg {
     margin: 0 auto;
     padding-left: 40px;
     padding-right: 40px;
-    width: 1360px;
+    width: 1440px;
 }
