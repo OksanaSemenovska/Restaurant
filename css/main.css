@@ -910,4 +910,12 @@ svg {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-bottom: 39px;
+}
+
+.footer__linkedin {
+  fill: #FFFFFF;
+}
+
+.footer__linkedin-link {
+  padding-top: 180px;
 }/*# sourceMappingURL=main.css.map */
